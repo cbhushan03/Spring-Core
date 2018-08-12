@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+		<bean id="tringle" class="com.cbt.spring.Tringle" >
+			<constructor-arg index="0" value="Equilateral" />
+			<constructor-arg index="1" value="20" />
+			<constructor-arg index="2">
+				<list>
+				    <value>Java</value>
+				    <value>C#</value>
+				    <value>C++</value>
+				    <value>Python</value>
+				</list>
+			</constructor-arg>
+		</bean>
+</beans>
